@@ -1,0 +1,33 @@
+.root {
+  --main-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --akcent-text-color: #f7941e;
+
+  --backgraund-primary-color: #fafafa;
+  --backgraund-main-color: #ffffff;
+  --backgraund-second-color: #000000;
+  --backgraund-akcent-color: #f7941e;
+  --backgraund-aktive-color: #f1f1f2;
+
+  --primary-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--main-text-color);
+  background-color: var(--backgraund-primary-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.23;
+}
