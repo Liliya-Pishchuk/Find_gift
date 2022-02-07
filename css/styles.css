@@ -1,4 +1,4 @@
-.root {
+:root {
   --main-text-color: #000000;
   --secondary-text-color: #ffffff;
   --akcent-text-color: #f7941e;
@@ -8,12 +8,11 @@
   --backgraund-second-color: #000000;
   --backgraund-akcent-color: #f7941e;
   --backgraund-aktive-color: #f1f1f2;
-
-  --primary-font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: var(--primary-font-family);
+  font-family: "Hind Siliguri", sans-serif;
+  font-style: normal;
   color: var(--main-text-color);
   background-color: var(--backgraund-primary-color);
 }
@@ -26,8 +25,17 @@ body {
   text-decoration: none;
 }
 
+.navigation-link {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  color: var(--main-text-color);
+}
+
 .hero-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.23;
 }
