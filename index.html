@@ -5,55 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="main">
+  <body>
     <header class="page-header">
-      <img class="logo" src="./images/Logo.jpg" alt="Logo" width="41" height="39">
-      <nav class="navigation">
-        <ul class="navigation-list list">
-          <li>
-            <a class="navigation-link link" href="">logo</a>
-          </li>
-          <li><a class="navigation-link link" href="">Home</a></li>
-          <li><a class="navigation-link link" href="">About Us</a></li>
-          <li><a class="navigation-link link" href="">Services</a></li>
-          <li><a class="navigation-link link" href="">Blogs</a></li>
-          <li><a class="navigation-link link" href="">Gift Finder</a></li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <a class="navigation-link link logo" href="">logo</a>
+        <nav class="navigation">
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="">Home</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="">About Us</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="">Services</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="">Blogs</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-button">Gift finder</button>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
-        <p class="hero-text">
-          Struggling to find a gift for your wife or girlfriend? No problem!
-        </p>
-        <a class="hero-button link" href="">Find gift now</a>
-        <img src="./images/couple.jpg" alt="couple" width="719" height="700" />
+        <div class="container hero-container">
+          <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+          <p class="hero-text">
+            Struggling to find a gift for your wife or girlfriend? No problem!
+          </p>
+          <button class="hero-button link">Find gift now</button>
+        </div>
       </section>
+
       <section class="about">
-        <img
-          src="./images/cart_thanks.jpg"
-          alt="cart thanks"
-          width="721"
-          height="600"
-        />
-        <h2 class="about-title">How we work</h2>
-        <p class="about-text">
-          We’ve actually already asked hundreds of women what they want, and
-          made a database with the results. All you have to do is take our short
-          survey that only takes seconds, and our proprietary algorithm will
-          match you with a few perfect gift options.
-        </p>
-        <a class="about-button link" href="">Learn More</a>
+        <div>
+          <img
+            src="./images/cart_thanks.jpg"
+            alt="cart thanks"
+            width="721"
+            height="600"
+          />
+          <h2 class="about-title">How we work</h2>
+          <p class="about-text">
+            We’ve actually already asked hundreds of women what they want, and
+            made a database with the results. All you have to do is take our
+            short survey that only takes seconds, and our proprietary algorithm
+            will match you with a few perfect gift options.
+          </p>
+          <a class="about-button link" href="">Learn More</a>
+        </div>
       </section>
+
       <section class="occasions">
         <h2 class="occasions-title">Gifts for all Occasions</h2>
         <p class="occasions-text">
@@ -150,12 +178,13 @@
       </section>
 
       <section class="blogs">
-                <h2 hidden>Blogs</h2>
+        <h2 hidden>Blogs</h2>
 
         <ul class="blogs-list list">
           <li>
-        <ul class="blogs-list list">
-            <h3 class="blog-list-tile">Database to find the gifts for your girlfriend</h3>
+            <h3 class="blog-list-tile">
+              Database to find the gifts for your girlfriend
+            </h3>
             <p class="blog-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore...
@@ -184,10 +213,15 @@
         <li><a class="footer-menu-link link" href=""></a>Service</li>
         <li><a class="footer-menu-link link" href=""></a>Blog</li>
       </ul>
-      
+
       <div class="copywrite">
-      <p class="copywrite-text">&#169; 2010 — 2020</p>
-      <a class="copywrite-link link" href="">Privacy — Terms</a></div>
+        <p class="copywrite-text">&#169; 2010 — 2020</p>
+        <a class="copywrite-link link" href="">Privacy — Terms</a>
+      </div>
     </footer>
   </body>
 </html>
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam repudiandae
+eligendi maiores modi quia ratione sed asperiores facilis, harum veritatis odio
+facere magni aut culpa magnam quam quo distinctio illo!
