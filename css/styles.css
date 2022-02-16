@@ -52,8 +52,7 @@ img {
   width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: flex-start;
 }
 
 /*-------start header-------*/
@@ -126,12 +125,10 @@ img {
 .hero-container {
   padding-top: 154px;
   padding-bottom: 135px;
-  width: 433px;
 }
 
 .hero-title {
   margin-bottom: 36px;
-  
   font-weight: 600;
   font-size: 56px;
   line-height: 1.23;
